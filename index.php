@@ -6,7 +6,7 @@ Modified by Ilyasa
 */
 require_once('./line_class.php');
 
-$channelAccessToken = 'YOUR-CHANNEL-ACCESS-TOKEN'; //Your Channel Access Token
+$channelAccessToken = ''; //Your Channel Access Token
 $channelSecret = 'YOUR-CHANNEL-SECRET';//Your Channel Secret
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
